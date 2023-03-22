@@ -9,7 +9,7 @@ img_cv = cv2.imread(r'document.png')
 #pytesseract.pytesseract.tesseract_cmd = r'full path to executable'
 
 def askGPT(text):
-    openai.api_key = "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"
+    openai.api_key = "oopsie daisy"
     response = openai.Completion.create(
             engine = "text-davinci-003",
             prompt = text,
